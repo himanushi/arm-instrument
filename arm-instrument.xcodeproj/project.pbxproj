@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A54CA1F295253EF00E1E7AB /* arm_instrumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA1E295253EF00E1E7AB /* arm_instrumentApp.swift */; };
+		3A54CA21295253EF00E1E7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA20295253EF00E1E7AB /* ContentView.swift */; };
+		3A54CA23295253F000E1E7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A54CA22295253F000E1E7AB /* Assets.xcassets */; };
+		3A54CA26295253F000E1E7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A54CA25295253F000E1E7AB /* Preview Assets.xcassets */; };
+		3A54CA30295253F000E1E7AB /* arm_instrumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA2F295253F000E1E7AB /* arm_instrumentTests.swift */; };
+		3A54CA3A295253F000E1E7AB /* arm_instrumentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA39295253F000E1E7AB /* arm_instrumentUITests.swift */; };
+		3A54CA3C295253F000E1E7AB /* arm_instrumentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA3B295253F000E1E7AB /* arm_instrumentUITestsLaunchTests.swift */; };
+		3A54CA42295253F000E1E7AB /* arm-instrument Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A54CA41295253F000E1E7AB /* arm-instrument Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A54CA47295253F000E1E7AB /* arm_instrumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA46295253F000E1E7AB /* arm_instrumentApp.swift */; };
+		3A54CA49295253F000E1E7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA48295253F000E1E7AB /* ContentView.swift */; };
+		3A54CA4B295253F000E1E7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A54CA4A295253F000E1E7AB /* Assets.xcassets */; };
+		3A54CA4E295253F000E1E7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A54CA4D295253F000E1E7AB /* Preview Assets.xcassets */; };
+		3A54CA58295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA57295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift */; };
+		3A54CA62295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA61295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift */; };
+		3A54CA64295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A54CA2C295253F000E1E7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A54CA13295253EF00E1E7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A54CA1A295253EF00E1E7AB;
+			remoteInfo = "arm-instrument";
+		};
+		3A54CA36295253F000E1E7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A54CA13295253EF00E1E7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A54CA1A295253EF00E1E7AB;
+			remoteInfo = "arm-instrument";
+		};
+		3A54CA43295253F000E1E7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A54CA13295253EF00E1E7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A54CA40295253F000E1E7AB;
+			remoteInfo = "arm-instrument Watch App";
+		};
+		3A54CA54295253F100E1E7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A54CA13295253EF00E1E7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A54CA40295253F000E1E7AB;
+			remoteInfo = "arm-instrument Watch App";
+		};
+		3A54CA5E295253F100E1E7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A54CA13295253EF00E1E7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A54CA40295253F000E1E7AB;
+			remoteInfo = "arm-instrument Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A54CA6A295253F100E1E7AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3A54CA42295253F000E1E7AB /* arm-instrument Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A54CA1B295253EF00E1E7AB /* arm-instrument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arm-instrument.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA1E295253EF00E1E7AB /* arm_instrumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrumentApp.swift; sourceTree = "<group>"; };
+		3A54CA20295253EF00E1E7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A54CA22295253F000E1E7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A54CA25295253F000E1E7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A54CA2B295253F000E1E7AB /* arm-instrumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arm-instrumentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA2F295253F000E1E7AB /* arm_instrumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrumentTests.swift; sourceTree = "<group>"; };
+		3A54CA35295253F000E1E7AB /* arm-instrumentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arm-instrumentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA39295253F000E1E7AB /* arm_instrumentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrumentUITests.swift; sourceTree = "<group>"; };
+		3A54CA3B295253F000E1E7AB /* arm_instrumentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrumentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A54CA41295253F000E1E7AB /* arm-instrument Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arm-instrument Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA46295253F000E1E7AB /* arm_instrumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrumentApp.swift; sourceTree = "<group>"; };
+		3A54CA48295253F000E1E7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A54CA4A295253F000E1E7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A54CA4D295253F000E1E7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A54CA53295253F100E1E7AB /* arm-instrument Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arm-instrument Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA57295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3A54CA5D295253F100E1E7AB /* arm-instrument Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arm-instrument Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54CA61295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A54CA18295253EF00E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA28295253F000E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA32295253F000E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA3E295253F000E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA50295253F100E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA5A295253F100E1E7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A54CA12295253EF00E1E7AB = {
+			isa = PBXGroup;
+			children = (
+				3A54CA1D295253EF00E1E7AB /* arm-instrument */,
+				3A54CA2E295253F000E1E7AB /* arm-instrumentTests */,
+				3A54CA38295253F000E1E7AB /* arm-instrumentUITests */,
+				3A54CA45295253F000E1E7AB /* arm-instrument Watch App */,
+				3A54CA56295253F100E1E7AB /* arm-instrument Watch AppTests */,
+				3A54CA60295253F100E1E7AB /* arm-instrument Watch AppUITests */,
+				3A54CA1C295253EF00E1E7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A54CA1C295253EF00E1E7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA1B295253EF00E1E7AB /* arm-instrument.app */,
+				3A54CA2B295253F000E1E7AB /* arm-instrumentTests.xctest */,
+				3A54CA35295253F000E1E7AB /* arm-instrumentUITests.xctest */,
+				3A54CA41295253F000E1E7AB /* arm-instrument Watch App.app */,
+				3A54CA53295253F100E1E7AB /* arm-instrument Watch AppTests.xctest */,
+				3A54CA5D295253F100E1E7AB /* arm-instrument Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A54CA1D295253EF00E1E7AB /* arm-instrument */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA1E295253EF00E1E7AB /* arm_instrumentApp.swift */,
+				3A54CA20295253EF00E1E7AB /* ContentView.swift */,
+				3A54CA22295253F000E1E7AB /* Assets.xcassets */,
+				3A54CA24295253F000E1E7AB /* Preview Content */,
+			);
+			path = "arm-instrument";
+			sourceTree = "<group>";
+		};
+		3A54CA24295253F000E1E7AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA25295253F000E1E7AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A54CA2E295253F000E1E7AB /* arm-instrumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA2F295253F000E1E7AB /* arm_instrumentTests.swift */,
+			);
+			path = "arm-instrumentTests";
+			sourceTree = "<group>";
+		};
+		3A54CA38295253F000E1E7AB /* arm-instrumentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA39295253F000E1E7AB /* arm_instrumentUITests.swift */,
+				3A54CA3B295253F000E1E7AB /* arm_instrumentUITestsLaunchTests.swift */,
+			);
+			path = "arm-instrumentUITests";
+			sourceTree = "<group>";
+		};
+		3A54CA45295253F000E1E7AB /* arm-instrument Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA46295253F000E1E7AB /* arm_instrumentApp.swift */,
+				3A54CA48295253F000E1E7AB /* ContentView.swift */,
+				3A54CA4A295253F000E1E7AB /* Assets.xcassets */,
+				3A54CA4C295253F000E1E7AB /* Preview Content */,
+			);
+			path = "arm-instrument Watch App";
+			sourceTree = "<group>";
+		};
+		3A54CA4C295253F000E1E7AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA4D295253F000E1E7AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A54CA56295253F100E1E7AB /* arm-instrument Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA57295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift */,
+			);
+			path = "arm-instrument Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3A54CA60295253F100E1E7AB /* arm-instrument Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A54CA61295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift */,
+				3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "arm-instrument Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A54CA1A295253EF00E1E7AB /* arm-instrument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA6B295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument" */;
+			buildPhases = (
+				3A54CA17295253EF00E1E7AB /* Sources */,
+				3A54CA18295253EF00E1E7AB /* Frameworks */,
+				3A54CA19295253EF00E1E7AB /* Resources */,
+				3A54CA6A295253F100E1E7AB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A54CA44295253F000E1E7AB /* PBXTargetDependency */,
+			);
+			name = "arm-instrument";
+			productName = "arm-instrument";
+			productReference = 3A54CA1B295253EF00E1E7AB /* arm-instrument.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A54CA2A295253F000E1E7AB /* arm-instrumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA6E295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrumentTests" */;
+			buildPhases = (
+				3A54CA27295253F000E1E7AB /* Sources */,
+				3A54CA28295253F000E1E7AB /* Frameworks */,
+				3A54CA29295253F000E1E7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A54CA2D295253F000E1E7AB /* PBXTargetDependency */,
+			);
+			name = "arm-instrumentTests";
+			productName = "arm-instrumentTests";
+			productReference = 3A54CA2B295253F000E1E7AB /* arm-instrumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A54CA34295253F000E1E7AB /* arm-instrumentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA71295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrumentUITests" */;
+			buildPhases = (
+				3A54CA31295253F000E1E7AB /* Sources */,
+				3A54CA32295253F000E1E7AB /* Frameworks */,
+				3A54CA33295253F000E1E7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A54CA37295253F000E1E7AB /* PBXTargetDependency */,
+			);
+			name = "arm-instrumentUITests";
+			productName = "arm-instrumentUITests";
+			productReference = 3A54CA35295253F000E1E7AB /* arm-instrumentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3A54CA40295253F000E1E7AB /* arm-instrument Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA67295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch App" */;
+			buildPhases = (
+				3A54CA3D295253F000E1E7AB /* Sources */,
+				3A54CA3E295253F000E1E7AB /* Frameworks */,
+				3A54CA3F295253F000E1E7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "arm-instrument Watch App";
+			productName = "arm-instrument Watch App";
+			productReference = 3A54CA41295253F000E1E7AB /* arm-instrument Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A54CA52295253F100E1E7AB /* arm-instrument Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA74295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch AppTests" */;
+			buildPhases = (
+				3A54CA4F295253F100E1E7AB /* Sources */,
+				3A54CA50295253F100E1E7AB /* Frameworks */,
+				3A54CA51295253F100E1E7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A54CA55295253F100E1E7AB /* PBXTargetDependency */,
+			);
+			name = "arm-instrument Watch AppTests";
+			productName = "arm-instrument Watch AppTests";
+			productReference = 3A54CA53295253F100E1E7AB /* arm-instrument Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A54CA5C295253F100E1E7AB /* arm-instrument Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A54CA77295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch AppUITests" */;
+			buildPhases = (
+				3A54CA59295253F100E1E7AB /* Sources */,
+				3A54CA5A295253F100E1E7AB /* Frameworks */,
+				3A54CA5B295253F100E1E7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A54CA5F295253F100E1E7AB /* PBXTargetDependency */,
+			);
+			name = "arm-instrument Watch AppUITests";
+			productName = "arm-instrument Watch AppUITests";
+			productReference = 3A54CA5D295253F100E1E7AB /* arm-instrument Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A54CA13295253EF00E1E7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3A54CA1A295253EF00E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3A54CA2A295253F000E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3A54CA1A295253EF00E1E7AB;
+					};
+					3A54CA34295253F000E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3A54CA1A295253EF00E1E7AB;
+					};
+					3A54CA40295253F000E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3A54CA52295253F100E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3A54CA40295253F000E1E7AB;
+					};
+					3A54CA5C295253F100E1E7AB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3A54CA40295253F000E1E7AB;
+					};
+				};
+			};
+			buildConfigurationList = 3A54CA16295253EF00E1E7AB /* Build configuration list for PBXProject "arm-instrument" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A54CA12295253EF00E1E7AB;
+			productRefGroup = 3A54CA1C295253EF00E1E7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A54CA1A295253EF00E1E7AB /* arm-instrument */,
+				3A54CA2A295253F000E1E7AB /* arm-instrumentTests */,
+				3A54CA34295253F000E1E7AB /* arm-instrumentUITests */,
+				3A54CA40295253F000E1E7AB /* arm-instrument Watch App */,
+				3A54CA52295253F100E1E7AB /* arm-instrument Watch AppTests */,
+				3A54CA5C295253F100E1E7AB /* arm-instrument Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A54CA19295253EF00E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA26295253F000E1E7AB /* Preview Assets.xcassets in Resources */,
+				3A54CA23295253F000E1E7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA29295253F000E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA33295253F000E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA3F295253F000E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA4E295253F000E1E7AB /* Preview Assets.xcassets in Resources */,
+				3A54CA4B295253F000E1E7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA51295253F100E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA5B295253F100E1E7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A54CA17295253EF00E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA21295253EF00E1E7AB /* ContentView.swift in Sources */,
+				3A54CA1F295253EF00E1E7AB /* arm_instrumentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA27295253F000E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA30295253F000E1E7AB /* arm_instrumentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA31295253F000E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA3C295253F000E1E7AB /* arm_instrumentUITestsLaunchTests.swift in Sources */,
+				3A54CA3A295253F000E1E7AB /* arm_instrumentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA3D295253F000E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA49295253F000E1E7AB /* ContentView.swift in Sources */,
+				3A54CA47295253F000E1E7AB /* arm_instrumentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA4F295253F100E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA58295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A54CA59295253F100E1E7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54CA64295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift in Sources */,
+				3A54CA62295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A54CA2D295253F000E1E7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A54CA1A295253EF00E1E7AB /* arm-instrument */;
+			targetProxy = 3A54CA2C295253F000E1E7AB /* PBXContainerItemProxy */;
+		};
+		3A54CA37295253F000E1E7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A54CA1A295253EF00E1E7AB /* arm-instrument */;
+			targetProxy = 3A54CA36295253F000E1E7AB /* PBXContainerItemProxy */;
+		};
+		3A54CA44295253F000E1E7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A54CA40295253F000E1E7AB /* arm-instrument Watch App */;
+			targetProxy = 3A54CA43295253F000E1E7AB /* PBXContainerItemProxy */;
+		};
+		3A54CA55295253F100E1E7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A54CA40295253F000E1E7AB /* arm-instrument Watch App */;
+			targetProxy = 3A54CA54295253F100E1E7AB /* PBXContainerItemProxy */;
+		};
+		3A54CA5F295253F100E1E7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A54CA40295253F000E1E7AB /* arm-instrument Watch App */;
+			targetProxy = 3A54CA5E295253F100E1E7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A54CA65295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A54CA66295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3A54CA68295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arm-instrument Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "arm-instrument";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "net.himakan.apps.arm-instrument";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3A54CA69295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arm-instrument Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "arm-instrument";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "net.himakan.apps.arm-instrument";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3A54CA6C295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arm-instrument/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "arm-instrument";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A54CA6D295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arm-instrument/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "arm-instrument";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A54CA6F295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrumentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument";
+			};
+			name = Debug;
+		};
+		3A54CA70295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrumentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A54CA72295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrumentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "arm-instrument";
+			};
+			name = Debug;
+		};
+		3A54CA73295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrumentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "arm-instrument";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A54CA75295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3A54CA76295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3A54CA78295253F100E1E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "arm-instrument Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3A54CA79295253F100E1E7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.arm-instrument-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "arm-instrument Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A54CA16295253EF00E1E7AB /* Build configuration list for PBXProject "arm-instrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA65295253F100E1E7AB /* Debug */,
+				3A54CA66295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA67295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA68295253F100E1E7AB /* Debug */,
+				3A54CA69295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA6B295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA6C295253F100E1E7AB /* Debug */,
+				3A54CA6D295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA6E295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA6F295253F100E1E7AB /* Debug */,
+				3A54CA70295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA71295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrumentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA72295253F100E1E7AB /* Debug */,
+				3A54CA73295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA74295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA75295253F100E1E7AB /* Debug */,
+				3A54CA76295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A54CA77295253F100E1E7AB /* Build configuration list for PBXNativeTarget "arm-instrument Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A54CA78295253F100E1E7AB /* Debug */,
+				3A54CA79295253F100E1E7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A54CA13295253EF00E1E7AB /* Project object */;
+}
