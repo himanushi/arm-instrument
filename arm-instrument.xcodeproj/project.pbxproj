@@ -22,6 +22,8 @@
 		3A54CA58295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA57295253F100E1E7AB /* arm_instrument_Watch_AppTests.swift */; };
 		3A54CA62295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA61295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift */; };
 		3A54CA64295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */; };
+		3A54CA7B29525D6900E1E7AB /* ToneOutputUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */; };
+		3A54CA7F2952645B00E1E7AB /* MotionSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		3A54CA5D295253F100E1E7AB /* arm-instrument Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arm-instrument Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A54CA61295253F100E1E7AB /* arm_instrument_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneOutputUnit.swift; sourceTree = "<group>"; };
+		3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 			children = (
 				3A54CA1E295253EF00E1E7AB /* arm_instrumentApp.swift */,
 				3A54CA20295253EF00E1E7AB /* ContentView.swift */,
+				3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */,
+				3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */,
 				3A54CA22295253F000E1E7AB /* Assets.xcassets */,
 				3A54CA24295253F000E1E7AB /* Preview Content */,
 			);
@@ -465,6 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A54CA7B29525D6900E1E7AB /* ToneOutputUnit.swift in Sources */,
+				3A54CA7F2952645B00E1E7AB /* MotionSensor.swift in Sources */,
 				3A54CA21295253EF00E1E7AB /* ContentView.swift in Sources */,
 				3A54CA1F295253EF00E1E7AB /* arm_instrumentApp.swift in Sources */,
 			);
@@ -679,7 +687,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -710,7 +718,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -882,7 +890,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -904,7 +912,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arm-instrument Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arm-instrument Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};

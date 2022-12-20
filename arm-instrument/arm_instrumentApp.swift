@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AudioToolbox
 
 @main
 struct arm_instrumentApp: App {
