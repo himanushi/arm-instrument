@@ -9,40 +9,48 @@ import SwiftUI
 import CoreMotion
 
 struct ContentView: View {
+    private let motionManager = CMMotionManager()
+    private let tone = ToneOutputUnit()
     
-    @State var buttonText = "Button"
-    let tone = ToneOutputUnit()
-    @ObservedObject var sensor = MotionSensor()
-    
-    init(){
-        sensor.start()
-    }
+    @State private var x: Double = 0.0
+    @State private var y: Double = 0.0
+    @State private var z: Double = 0.0
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            
-            Button(action: {
-                buttonText = "Button Tapped"
+        VStack(spacing: 50) {
+            Text("y: \((y + 2) * 1760 )")
+            Button {
                 tone.enableSpeaker()
-                tone.setFrequency(freq: (Double(sensor.yStr)! + 1) * 880.0)
-                tone.setToneTime(t: 10)
-            }){
-                Text(buttonText)
-                   .font(.largeTitle)
+                tone.setToneTime(t: 10000)
+            } label: {
+                Text("押して")
             }
-            
-            Text(sensor.xStr)
-                        Text(sensor.yStr)
-                        Text(sensor.zStr)
-                        Button(action: {
-                            sensor.isStarted ? sensor.stop() : sensor.start()
-                        }) {
-                            sensor.isStarted ? Text("STOP") : Text("START")
-                        }
+
+        }
+        .onAppear() {
+            start()
+        }
+        .onDisappear() {
+            tone.stop()
+            stop()
+        }
+    }
+    
+    func start() {
+        if motionManager.isAccelerometerAvailable {
+            motionManager.accelerometerUpdateInterval = 0.1
+            motionManager.startAccelerometerUpdates(to: .main) { data, error in
+                guard let data else { return }
+                tone.setFrequency(freq: (data.acceleration.y > 0 ? data.acceleration.y : data.acceleration.y + 1) * 1760 )
+                x = data.acceleration.x
+                y = data.acceleration.y
+                z = data.acceleration.z
+            }
+        }
+    }
+    func stop() {
+        if motionManager.isAccelerometerActive {
+            motionManager.stopAccelerometerUpdates()
         }
     }
 }

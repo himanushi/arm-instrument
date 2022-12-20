@@ -5,7 +5,6 @@
 //  Created by 匿名 on 2022/12/21.
 //
 
-import UIKit
 import CoreMotion
 class MotionSensor: NSObject, ObservableObject {
     
@@ -33,7 +32,8 @@ class MotionSensor: NSObject, ObservableObject {
         motionManager.stopDeviceMotionUpdates()
     }
     
-    private func updateMotionData(deviceMotion:CMDeviceMotion) {
+    
+    private func updateMotionData(deviceMotion: CMDeviceMotion) {
         xStr = String(deviceMotion.userAcceleration.x)
         yStr = String(deviceMotion.userAcceleration.y)
         zStr = String(deviceMotion.userAcceleration.z)
