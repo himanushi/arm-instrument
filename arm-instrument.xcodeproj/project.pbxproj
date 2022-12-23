@@ -24,6 +24,7 @@
 		3A54CA64295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */; };
 		3A54CA7B29525D6900E1E7AB /* ToneOutputUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */; };
 		3A54CA7F2952645B00E1E7AB /* MotionSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */; };
+		3A54CA812952830B00E1E7AB /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A54CA802952830B00E1E7AB /* Tone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		3A54CA63295253F100E1E7AB /* arm_instrument_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arm_instrument_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneOutputUnit.swift; sourceTree = "<group>"; };
 		3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
+		3A54CA802952830B00E1E7AB /* Tone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			children = (
 				3A54CA1E295253EF00E1E7AB /* arm_instrumentApp.swift */,
 				3A54CA20295253EF00E1E7AB /* ContentView.swift */,
+				3A54CA802952830B00E1E7AB /* Tone.swift */,
 				3A54CA7E2952645B00E1E7AB /* MotionSensor.swift */,
 				3A54CA7A29525D6900E1E7AB /* ToneOutputUnit.swift */,
 				3A54CA22295253F000E1E7AB /* Assets.xcassets */,
@@ -474,6 +477,7 @@
 				3A54CA7B29525D6900E1E7AB /* ToneOutputUnit.swift in Sources */,
 				3A54CA7F2952645B00E1E7AB /* MotionSensor.swift in Sources */,
 				3A54CA21295253EF00E1E7AB /* ContentView.swift in Sources */,
+				3A54CA812952830B00E1E7AB /* Tone.swift in Sources */,
 				3A54CA1F295253EF00E1E7AB /* arm_instrumentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
